@@ -8,7 +8,7 @@
   <%= @todo_list.description %>
 </p>
 <div id="todo_items_wrapper">
- <%= render @todo_list.todo_items %>
+ <%= render partial: 'todo_items/todo_item', collection: @todo_list.todo_items, as: :todo_item %>
  <div id="form">
   <%= render "todo_items/form" %>
  </div>

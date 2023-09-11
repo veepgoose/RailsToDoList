@@ -8,6 +8,8 @@ class TodoListsController < ApplicationController
 
   # GET /todo_lists/1 or /todo_lists/1.json
   def show
+    @todo_list = TodoList.find(params[:id])
+    @todo_items = TodoItem.find(params[:id])
   end
 
   # GET /todo_lists/new
