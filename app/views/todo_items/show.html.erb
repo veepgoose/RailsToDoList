@@ -1,0 +1,14 @@
+<h1>Todo List Item</h1>
+<p><strong>Content:</strong> <%= @todo_item.content %></p>
+
+<% if flash.now[:success] %>
+    div class="alert alert-success">
+        <%= flash.now[:success] %>
+    </div>
+<% end %>
+
+<% if flash.now[:error] %>
+    div class="alert alert-danger">
+        <%= flash.now[:error] %>
+    </div>
+<% end %>

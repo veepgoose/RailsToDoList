@@ -1,4 +1,6 @@
 // Import and register all your controllers from the importmap under controllers/*
+import Rails from "rails-ujs";
+Rails.start();
 
 import { application } from "controllers/application"
 

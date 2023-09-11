@@ -1,0 +1,11 @@
+{
+  "name": "rewardify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/veepgoose/RailsToDoList.git",
+  "author": "veepgoose <victoriaplatt@loveplanes.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "rails-ujs": "^5.2.8-1"
+  }
+}
